@@ -1,4 +1,4 @@
-# 🔴 GravitySpheres
+# 🔴 SceneReconstructionDemo
 
 A beginner-friendly **visionOS app** that spawns red spheres into your real environment using ARKit and RealityKit. The spheres fall with gravity, roll on your floor, and bounce off your walls in mixed reality.
 
@@ -32,7 +32,7 @@ A beginner-friendly **visionOS app** that spawns red spheres into your real envi
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/your-username/GravitySpheres.git
+git clone https://github.com/your-username/SceneReconstructionDemo.git
 ```
 
 **2. Open in Xcode**
@@ -54,12 +54,12 @@ Select your device from the run destination menu and run.
 ## 📁 Project Structure
 
 ```
-GravitySpheres/
-├── GravitySpheresApp.swift   # App entry point - declares the Window and AR scene
-├── AppModel.swift            # Shared logic - spawning spheres, clearing the scene
-├── ContentView.swift         # The 2D control panel (buttons)
-├── ImmersiveView.swift       # The AR scene - LiDAR scanning, physics, collision
-└── Info.plist                # Privacy descriptions required by Apple
+SceneReconstructionDemo/
+├── SceneReconstructionDemoApp.swift    # App entry point - declares the Window and AR scene
+├── AppModel.swift                      # Shared logic - spawning spheres, clearing the scene
+├── ContentView.swift                   # The 2D control panel (buttons)
+├── ImmersiveView.swift                 # The AR scene - LiDAR scanning, physics, collision
+└── Info.plist                          # Privacy descriptions required by Apple
 ```
 
 ---
